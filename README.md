@@ -1,3 +1,3 @@
-# Project Title Goes Here
+# Word Counter Map Activity
 
-Info about your project goes here
+Instructions are [here](https://docs.google.com/document/d/1ZDaPwdibCs0VZi7lYmnnssoyVOnqpaRWUn139Gr0wNM/edit?usp=sharing).
