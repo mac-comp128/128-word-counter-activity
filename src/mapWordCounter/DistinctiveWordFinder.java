@@ -165,8 +165,8 @@ public class DistinctiveWordFinder {
     }
 
     public static void main(String args[]) {
-        File f1 = getFile("trumpseconddebate.txt");
-        File f2 = getFile("clintonseconddebate.txt");
+        File f1 = getFile("PresidentialDebate2024/trump.txt");
+        File f2 = getFile("PresidentialDebate2024/harris.txt");
 
         System.out.println("Donald Trump's Distinctive Words:");
         DistinctiveWordFinder finder = new DistinctiveWordFinder();
@@ -180,7 +180,7 @@ public class DistinctiveWordFinder {
         int padding = 50;
         wordle.setCenter(bounds.getWidth()/2.0+padding, bounds.getHeight()/2.0+padding);
 
-        System.out.println("\nHillary Clinton's Distinctive Words:");
+        System.out.println("\nKamala Harris' Distinctive Words:");
         finder = new DistinctiveWordFinder();
         finder.countWords(f2, f1);
         scores = finder.findDistinctive();
